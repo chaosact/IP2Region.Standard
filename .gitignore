@@ -5,7 +5,7 @@
 
 src/IP2Region.Standard/DbSearcher.cs
 src/IP2Region.Core/*
-.sln
+*.sln
 # User-specific files
 *.rsuser
 *.suo
