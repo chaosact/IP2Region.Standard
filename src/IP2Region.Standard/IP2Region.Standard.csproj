@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>IP2Region C# version. 
+1.使用Unsafe类优化底层，不需要勾选“允许不安全代码”。单IP检索速度为100+ns，1000W次检索，耗时在4.5秒左右。
+2.修正某些IP在Btree模式下搜索的结果为乱码的问题。</Description>
+    <RepositoryType>public</RepositoryType>
+    <PackageTags>IP2Region IPSearch</PackageTags>
+    <RepositoryUrl>https://github.com/chaosact/IP2Region.Standard.git</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
